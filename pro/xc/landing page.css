@@ -1,0 +1,194 @@
+/*--------------generale-------------*/
+:root{
+    --orange:#f1c40f;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+}
+section{
+    width: 80%;
+    height: 500px;
+    
+    text-align: center;
+    margin: auto;
+
+}
+/*------------header------------*/
+.logo{
+   
+    width: 300px;
+    height:40px;
+    
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#nav-bar ul li{
+    display: inline;
+    color: black;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#nav-bar{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 30px 40px 30px;
+}
+#header{
+    height: 80px;
+    width: 100%;
+    background: #eee;
+    padding: 20px 40px 40px;
+    position: fixed;
+    
+}
+
+/*----------------section-form----------*/
+.form{
+    padding:100px;
+    width: 80%;
+    height: 300px;
+}
+#submit{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    background:var(--orange);
+    border-radius: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 2px;
+    font-size: 17px;
+}
+#submit:hover{
+    cursor: pointer;
+    background: darkgoldenrod;
+
+}
+#email{
+    border-radius: 2px;
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border:1px solid black;
+    padding-left:9px ;
+    text-transform:capitalize;
+}
+/*----------------section-form----------*/
+.test{
+    margin-left: 100px;
+    height:140px ;
+    position: relative;
+    text-align: start;
+    z-index: -1;
+
+
+}
+.cv{
+    position: absolute;
+    left:130px;
+    top:40px;
+}
+.icon{
+    position: absolute;
+    top:35px;
+    margin: 10px;
+    color:var(--orange);
+}
+/*--------------prince-----------------*/
+#pricing{
+    overflow: hidden;
+    
+}
+.mgt {
+    margin: 0 2%;
+}
+.terod{
+    border: 1px solid black;
+    width: 31%;
+    float: left;
+    height: 300px;
+    border-radius: 2px;
+}
+.title{
+    width: 100%;
+    height: 50px;
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+}
+span{
+    font-weight: 800;
+    font-size: 30px;
+}
+#pricing ul{
+    margin: 20px;
+}
+#pricing ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: var(--orange);
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #ddd;
+}
+/*---------------------*/
+.finich{
+    width: 80%;
+    height: 100px;
+    background: #ddd;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+.finich ul{
+    position: absolute;
+   
+    right: 0;
+}
+.finich ul li{
+    display: inline;
+    text-transform: capitalize;
+    margin: 20px;
+    margin-top: 20px;
+}
+.finich p{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    margin-bottom: 30px;
+    color: rgb(126, 121, 121);
+}
+
+

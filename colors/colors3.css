@@ -1,0 +1,15 @@
+
+:root {
+    --primarycolor: rgb(203, 236, 15);
+    --secondarycolor: rgb(134, 151, 167);
+    --backgr: rgb(218, 211, 211);
+    --bgcolor-1: rgb(58, 30, 30);
+    --bgcolor-2: rgb(36, 158, 25);
+    --padding: 8%;
+}
+.bgy{
+    
+    background-image: url(../photo/bgy.svg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
